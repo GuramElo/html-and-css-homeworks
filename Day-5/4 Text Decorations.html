@@ -15,7 +15,7 @@ body,html {
     left:500%;
     
     width:1173.35px;
-    height:1702.95px;
+    height:3000px;
 }
 .pp{
     margin:0px;
@@ -26,23 +26,31 @@ font-size: 14px;
 line-height: 23px;
 }
 
-h1 {
-    line-height: 30px;;
+h1 {position: relative;
+    text-transform: capitalize;
+    word-spacing: normal;
+    line-height: 20px;;
     height:40px;
-    width:325px;
+    width:335px;
     margin:0px;
     font-weight: normal;
     color:black;
     font-size:30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+h1 .did {
+    position:absolute;
+    top:1px;
+    left:112px;
 }
 ul {
     margin-top:23px ;
-    width:337.35px;
+    width:340px;
     height:155.58px;
     list-style: none;
     padding-left: 0px;
-    line-height: 30px;
+    line-height: 31px;
+    padding-right: 0px;
     
 }
 ul li{
@@ -53,16 +61,29 @@ position:relative;
 }
 .txt {
 position:absolute;
-top:-3px;
+top:-4px;
+left:36px;
+}
+.l1 .txt {
+    top:-4.5px;
+    left:34.5px;
+}
+.l2 .txt {
+    left:33px;
 }
 .div-2{
     display: inline-block;
-    width:16px;
-    height:16px;
+    width:13px;
+    height:13px;
     border:1px solid #34495e;
     background-color: #34495e;
     border-radius: 1px;
     margin-right: 12px;
+}
+.div-22{
+    position:absolute;
+    top:322px;
+    left:-1px;
 }
 .ul .div-2 {
     background: none;}
@@ -75,17 +96,19 @@ top:-3px;
 width:100%;
 height:190px;
 background-color: #f5f7f8;
-border-radius: 8px;
+border-radius: 5px;
 margin-bottom: 23px ;
 }
 
-.v1{padding:0px;
+.v1{
+    font-size: 14px;
+    padding:0px;
     position: absolute;
-    bottom:35px;
-    left:35px;
+    bottom:33px;
+    left:48px;
 line-height: 24px;
 font-family: Arial, Helvetica, sans-serif;
-width:169px;
+width:190px;
 height:136px;
 background:none;
 color:#a1b1bc;
@@ -103,6 +126,11 @@ float: left;
     text-decoration: underline #1abc9c;
 
 }
+.sp{
+    position: absolute;
+    bottom:1768px;
+    left:-0.4px;
+}
 </style>
 
 <!--Phasellus sit amet velit auctor turpis rhoncus.
@@ -115,24 +143,24 @@ Nunc tincidunt augue in enim sollicitudin feugiat.-->
 <div class="div-1">
 
 <div class="div-11">
-<h1>You will love our styles</h1>
+<h1>You will <span class="did">love our styles.</span></h1>
 
-<p class="pp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. Nulla blandit bibendum metus ut sagittis. Etiam quis semper justo. Sed tristique facilisis felis ut tincidunt. Phasellus auctor convallis nisl ut accumsan. Suspendisse ullamcorper fermentum lectus, vel tincidunt ligula mollis sit amet. Suspendisse ullamcorper fermentum lectus, vel tincidunt ligula mollis sit amet:</p>
-<div style="display: flex; column-gap: 28px;"><ul>
+<p class="pp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. Nulla blandit bibendum metus ut sagittis. Etiam quis semper justo. Sed tristique facilisis felis ut tincidunt. Phasellus auctor convallis nisl ut accumsan. Suspendisse ullamcorper fermentum lectus, vel tincidunt <br>ligula mollis sit amet. Suspendisse ullamcorper fermentum lectus, vel tincidunt ligula mollis sit amet:</p>
+<div style="display: flex; column-gap: 60px;"><ul class="l1">
 <li><span class="div-2"></span><span class="txt"> Phasellus sit amet velit auctor turpis rhoncus.</span></li>
 <li><span class="div-2"></span><span class="txt">Phasellus sed dolor sodales, eleifend ipsum eu.</span></li>
 <li><span class="div-2"></span><span class="txt">Nullam id dolor in ex eleifend tempus.</span></li>
 <li><span class="div-2"></span><span class="txt">Etiam id lorem vel neque faucibus fermentum.</span></li>
 <li><span class="div-2"></span><span class="txt">Nunc tincidunt augue in enim sollicitudin feugiat.</span></li>
 </ul>
-<ul class="ul">
+<ul class="ul l2">
     <li><span class="div-2"></span><span class="txt"> Phasellus sit amet velit auctor turpis rhoncus.</span></li>
     <li><span class="div-2"></span><span class="txt">Phasellus sed dolor sodales, eleifend ipsum eu.</span></li>
     <li><span class="div-2"></span><span class="txt">Nullam id dolor in ex eleifend tempus.</span></li>
     <li><span class="div-2"></span><span class="txt">Etiam id lorem vel neque faucibus fermentum.</span></li>
     <li><span class="div-2"></span><span class="txt">Nunc tincidunt augue in enim sollicitudin feugiat.</span></li>
     </ul>
-    <ul>
+    <ul class="l3">
         <li><span class="div-2"></span><span class="txt"> Phasellus sit amet velit auctor turpis rhoncus.</span></li>
         <li><span class="div-2"></span><span class="txt">Phasellus sed dolor sodales, eleifend ipsum eu.</span></li>
         <li><span class="div-2"></span><span class="txt">Nullam id dolor in ex eleifend tempus.</span></li>
@@ -144,9 +172,9 @@ Nunc tincidunt augue in enim sollicitudin feugiat.-->
 
 
 <div class="div-22">
-<h1>You will love our styles</h1>
+<h1 class="difs">You will love our styles</h1>
 
-<p class="pp" style="position: relative;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. Nulla blandit bibendum metus ut sagittis. Etiam quis semper justo. Sed tristique facilisis felis ut tincidunt. Phasellus auctor convallis nisl ut accumsan. Suspendisse ullamcorper fermentum lectus, vel tincidunt ligula mollis sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. Nulla blandit bibendum metus ut sagittis:
+<p class="pp" style="position: relative;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. Nulla blandit bibendum metus ut sagittis. Etiam quis semper justo. Sed tristique facilisis felis ut tincidunt. Phasellus auctor convallis nisl ut accumsan. Suspendisse ullamcorper fermentum lectus, vel tincidunt <br>ligula mollis sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. <br>Nulla blandit bibendum metus ut sagittis:
 
 <div class="box"><span class="v1">.some-style {<br>
     width: 850px;<br>
@@ -154,7 +182,8 @@ Nunc tincidunt augue in enim sollicitudin feugiat.-->
     margin: 0 auto;<br>
     background-color: #FFF;<br>
 <div style="background:none;">}</div></div></span> </div>
-<p class="pp">Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urn a eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus. Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero.</p>
+<div class="sp">
+<p class="pp"><br>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero <br>vehicula ut. Integer sodales, urn a eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis,<br> tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet <Br>nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus. Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. <br>Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero.</p>
 </p>
 <div style="
 
@@ -167,17 +196,22 @@ column-gap: 30px;
 <div class="tv1"></div>
 <span class="pp"
 style="
+position:absolute;
+left:400px;
+top:183px;
 display: inline-block;
 width:768.93px;
 height:100%;
 "
 >Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula.<br> <br>
 
-    Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus. Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttito.<br><br>
+    <span style="position:absolute; top:95px;">Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, <br>justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus. Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttito.<br><br></span>
     
-    Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis.</span>
+    <span style="position:absolute; top:276px;">Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis.</span></span>
 </div>
-
+<div style="position: absolute; bottom:-300px;
+width:100%;
+">
 <div
 style="
 position:relative;
@@ -195,16 +229,16 @@ width:50px;
 box-sizing: border-box;
 background-color: #34495e;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 42px;
+font-size: 28px;
 line-height: 42px;
-text-align: right;
+text-align: center;
 padding-right:2px;
 color:white;
 ">⊕</span>
 <span
 style="
 position: absolute;
-top:50%;
+top:52%;
 transform: translateY(-50%);
 left:70px;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -214,6 +248,7 @@ color: #a1b1bc;
 "
 >Awesome,  Design,  Web Design,  Graphic,  Photography,  <span id="vv">tranmautritam</span>,  Designers,  Wordpress</span>
 </div>
+<br>
 <div
 style="
 position: relative;
@@ -235,11 +270,12 @@ background-color: #a1b1bc;
 height:100px;
 width:100px;
 border:3px white solid;
+box-shadow:#34495e;
 "></div>
 
 <div
 style="position:absolute;
-width:979.76px;
+width:1060.76px;
 top:50%;
 left:162px;
 transform: translateY(-50%);
@@ -260,7 +296,7 @@ Web Designer<br><br>
 <span style="font-style: italic;
 background: none;
 line-height: 24px;
-">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio.</span>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing <br>et, interdum nec metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio.</span>
 
 
 
@@ -268,8 +304,8 @@ line-height: 24px;
 
 </div>
 </div>
-
-
+</div>
+</div>
 
 
 
